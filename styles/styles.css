@@ -1,0 +1,64 @@
+body {
+    background-color: #FFF677;
+    margin: 0px;
+}
+
+.contentContainer {
+    margin: 10px;
+    width: 98%;
+    height: 890px;
+    border: solid black 2px;
+}
+
+h1 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: xxx-large;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: xx-large;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: large;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    margin: 80px;
+}
+
+.cable {
+    position: relative;
+    top: 200px;
+    border: solid black;
+}
+
+.birdMenu {
+    position: relative;
+    top: 135px;
+    display: flex;
+    justify-content: end;
+    gap: 200px;
+}
+
+.birdMenu a{
+    display: flex;
+    justify-content: end;
+    margin: 0px 20px;
+}
+
+a h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
