@@ -161,6 +161,32 @@ a h2 {
     height: 611px;
     top: -133px;
     z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfoContainer {
+    width: 400px;
+    border: solid black;
+    border-width: 2px 8px 8px 2px;
+    background-color: #FFF677;
+}
+
+.contactInfoContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.contactInfoContainer div p {
+    margin: 10px;
+}
+
+.contactInfoContainer p a{
+    text-decoration: underline;
 }
 
 /*About*/
