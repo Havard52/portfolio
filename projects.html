@@ -16,6 +16,16 @@
             <header>
                 <a href="index.html"><h1>Håvard Vavik</h1></a>
                 <h3>Frontend developer</h2>
+                    <input type="checkbox" id="hamburger_menu">
+                    <label for="hamburger_menu" class="hamburger_menu"><i class="fa-solid fa-bars fa-2xl"></i></label>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html" class="top_menu_elements"><button>Home</button></a></li>
+                                <li><a href="projects.html" class="top_menu_elements"><button>Projects</button></a></li>
+                                <li><a href="contact.html" class="top_menu_elements"><button>Contact</button></a></li>
+                                <li><a href="about.html" class="top_menu_elements"><button>About</button></a></li>
+                            </ul>
+                        </nav>    
             </header>
             <main>
                 <H2 class="topic">Projects</H1>
@@ -35,7 +45,9 @@
                         <div class="flexContainerProjects">
                             <h2>Rainydays</h2>
                             <div class="projectContainer">
-                                <img src="images/Skjermbilde 2023-12-02 164029.png" alt="Sccrenshot of the rainydays home page">
+                                <div class="projectImageContainer">
+                                    <img src="images/Skjermbilde 2023-12-02 164029.png" alt="Sccrenshot of the rainydays home page" class="screenshot">
+                                </div>
                                 <p>My Cross course project. A website for the fictional brand "RainyDays". The website is built across the courses I attended in the first semester.</p>
                                 <button><a href="https://frolicking-cajeta-0e5e8a.netlify.app/">Visit Rainydays</a></button>
                                 <button><a href="https://github.com/Noroff-FEU-Assignments/cross-course-project-Havard52.git">Github repository</a></button>
@@ -45,7 +57,9 @@
                         <div class="flexContainerProjects">
                             <h2>Science museum</h2>
                             <div class="projectContainer">
-                                <img src="images/Skjermbilde 2023-12-02 184955.png" alt="Sccrenshot of the rainydays home page">
+                                <div class="projectImageContainer">
+                                    <img src="images/Skjermbilde 2023-12-02 184955.png" alt="Sccrenshot of the rainydays home page" class="screenshot">
+                                </div>
                                 <p>My first semester project. A website for the fictional Musem "Community Science Museum" .The site is intended to appeal to both children and adults.</p>
                                 <button><a href="https://visionary-llama-9af50c.netlify.app/">Visit Science museum</a></button>
                                 <button><a href="https://github.com/Havard52/Sciencemuseum.git">Github repository</a></button>
@@ -55,13 +69,19 @@
                         <div class="flexContainerProjects">
                             <h2>MealPreppers</h2>
                             <div class="projectContainer">
-                                <img src="images/Skjermbilde 2023-12-02 190323.png" alt="Sccrenshot of the rainydays home page">
+                                <div class="projectImageContainer">
+                                    <img src="images/Skjermbilde 2023-12-02 190323.png" alt="Sccrenshot of the rainydays home page" class="screenshot">
+                                </div>
                                 <p>My first project exam. The website is built with html, css and javascript. The list of recipes is taken from wordpress's rest api.</p>
                                 <button><a href="https://timely-malasada-dee926.netlify.app/">Visit MealPreppers</a></button>
                                 <button><a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Havard52.git">Github repository</a></button>
                                 <button><a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-Havard52#readme">Readme.md</a></button>
                             </div>
                         </div>
+                    </div>
+                    <div class="popupScreenshot">
+                        <span><i class="fa-solid fa-x fa-2xl"></i></span>
+                        <img src="images/Skjermbilde 2023-12-02 164029.png" alt="">
                     </div>
                 </section>
             </main>
@@ -78,4 +98,5 @@
             </footer>           
         </div>
     </body>
+    <script src="js/projects.js"></script>
 </html>
